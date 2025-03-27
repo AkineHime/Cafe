@@ -1,0 +1,236 @@
+body{
+    background-color: #fff8dc;
+}
+.navbar {
+    margin-top: 0px;
+  }
+  .navbar-menu {
+    padding: 10px 0;
+    background:rgb(1, 35, 37);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    box-shadow: 2px -7px 13px 0px #000;
+  }
+  .navbar-fixed-top .container {
+    padding: 0 15px;
+  }
+  .logo {
+    width: 120px;
+    float: left;
+    padding: 5px 5px;
+  }
+  .menu {
+    line-height: 60px;
+    position: relative;
+  }
+  .menu ul {
+    list-style: none;
+    width: 80%;
+    float: right;
+  }
+  .menu ul li {
+    display: inline;
+    padding: 60px;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  a {
+    color: rgb(254, 220, 159);
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  a:hover {
+    color: rgb(192, 115, 35);
+  }
+  .none{
+    text-decoration: none;
+    color: #000;
+  }
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  .img-responsive {
+    width: 100%;
+  }
+  .img-curve {
+    border-radius: 10px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 4000;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-sub {
+    color:#747d8c;
+  }
+  .text-white {
+    color: #fff;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .food-menu {
+    padding: 200px 0;
+    margin: 50px;
+  }
+  .food-menu-box {
+    padding: 23px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0;
+    transition: box-shadow 0.4s;
+  }
+  
+  .food-menu-box:hover {
+    box-shadow: 5px 5px 5px rgb(195, 113, 37);
+  }
+  .food-menu-img {
+    width: 40%;
+    float: left;
+  }
+  .food-menu-desc {
+    width: 50%;
+    float: left;
+    margin-left: 40px;
+  }
+  .food-price {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .food-details {
+    font-size: 16px;
+    color: #747d8c;
+  }
+  .food-menu-desc .btn-primary {
+    margin-top: 15px;
+    display: block;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 30px;
+  }
+  .footer {
+    overflow: hidden;
+    background: rgba(8, 8, 8, 0.85);
+    color: #fff;
+  }
+  .footer .grid-3 {
+    padding: 30px 0;
+  }
+  .site-links a {
+    display: block;
+    margin: 10px 0;
+  }
+  .social ul {
+    list-style: none;
+  }
+  .social ul li {
+    display: inline;
+    padding: 8px;
+  }
+  .order {
+    padding: 150px 0;
+  }
+  .order .tbl-full {
+    margin-bottom: 50px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .order .tbl-full img {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    border-radius: 100%;
+  }
+  .order .tbl-full tr {
+    border-left: 1px solid #bfbbbb;
+    border-right: 1px solid #bfbbbb;
+  }
+  .order .tbl-full tr th,
+  .order .tbl-full tr td {
+    border-bottom: 1px solid #bfbbbb;
+    padding: 8px 8px;
+    text-align: center;
+  }
+  .order .tbl-full tr th {
+    border-top: 1px solid #bfbbbb;
+  }
+  .form {
+    box-shadow: 0 0 20px 2px #1a171780;
+    width: 70%;
+    padding: 10px 0;
+    margin: 0 auto;
+    border-radius: 3px;
+  }
+  .form input,
+  .form textarea {
+    width: 98%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #bfbbbb;
+    margin-bottom: 25px;
+  }
+  .form input[type="submit"] {
+    width: 30%;
+    border-radius: 5px;
+  }
+  /* Order Page Style End */
+  
+  /* Contact Page Style Start */
+  .contact{
+    padding: 65px 0;
+  }
+  #gmap_canvas {
+    width: 100%;
+    height: 400px;
+    border: none;
+  }
+  .btn-delete {
+    background: #ff0000;
+    transition: 0.5s;
+    padding: 3px 5px;
+    color: #fff;
+    opacity: 0.8;
+    display: inline;
+    border-radius: 4px;
+  }
+  .btn-delete:hover {
+    color: #fff;
+  }
+  .btn-primary {
+    background: rgb(226, 74, 74);
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  .btn-primary:hover {
+    background: #5c94e7;
+    color: #fff;
+  }
